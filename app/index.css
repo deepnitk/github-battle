@@ -122,17 +122,22 @@ li {
   margin: 100px 0;
 }
 
+.container-sm {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .battle-instructions {
   padding: 0;
   font-size: 25px;
 }
 
-.battle-instructions li{
+.battle-instructions li {
   flex: 1;
-  min-width: 300px;
+  min-width: 300px
 }
 
-.battle-instructions svg{
+.battle-instructions svg {
   padding: 40px;
   border-radius: 3px;
 }
@@ -140,6 +145,11 @@ li {
 .column {
   display: flex;
   flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
 }
 
 .player {
@@ -154,13 +164,13 @@ li {
   font-weight: 300;
 }
 
-.palyer-inputs input {
+.player-inputs input {
   padding: 8px;
   font-size: 16px;
   flex: 2;
   border-radius: 3px;
   border: none;
-  box-shadow: insert 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 .player-inputs .input-light {
@@ -220,11 +230,11 @@ li {
 }
 
 .btn-space {
-  margin: 40px auto
+  margin: 40px auto;
 }
 
 .error {
   color: #ff1616;
   font-size: 20px;
   margin: 50px 0;
-} 
+}

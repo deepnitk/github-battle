@@ -1,6 +1,13 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
 
+Card.propTypes = {
+    header: PropTypes.string.isRequired,
+    subheader: PropTypes.string,
+    avatar: PropTypes.string.isRequired,
+    href: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,    
+}
 export default function Card ({ header, subheader, avatar, href, name, children }) {
     return (
         <div className='card bg-light'>
