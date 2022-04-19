@@ -34,9 +34,9 @@ export default class Loading extends React.Component {
     }
     render() {
         return(
-            <p>
-                {this.state.content}
-            </p>
+        <p style={styles.content}>
+            {this.state.content}
+        </p>
         )
     }
 }
